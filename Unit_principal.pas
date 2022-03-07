@@ -8,7 +8,9 @@ uses
 
 type
   TForm_principal = class(TForm)
+    grp_beginner: TGroupBox;
     btn_10EasyPieces: TButton;
+    btn_calculator: TButton;
     procedure btn_10EasyPiecesClick(Sender: TObject);
   private
     { Private declarations }

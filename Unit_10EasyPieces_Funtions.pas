@@ -7,6 +7,7 @@ uses
 
 function fibonacci(initial_value, lengh : integer):String;
 function palindromic(digits:integer):string;
+function squares(numbers: integer):string;
 implementation
 
 
@@ -57,5 +58,31 @@ begin
       Result := line;
     end;
   end;
+end;
+
+function squares(numbers: integer):string;
+var
+  array1, array2: array of Integer;
+  index1, sum1, sum2, total: Integer;
+begin
+ index1 := 0;
+ sum1 := 0;
+ sum2 := 0;
+ total := 0;
+ SetLength(array1, numbers);
+ SetLength(array2, numbers);
+ while numbers > index1 do begin
+   array1[index1] := index1;
+   if index1 = 0 then begin
+     array2[index1] := index1;
+   end else
+    array2[index1] := index1 * index1;
+
+   sum1 := sum1 + array1[index1];
+   sum2 := sum2 + array2[index1];
+   index1 := index1 + 1;
+ end;
+   total := (sum1 * sum1) - sum2;
+   Result := IntToStr(total);
 end;
 end.

@@ -13,22 +13,63 @@ object Form_10EasyPieces: TForm_10EasyPieces
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object btn_Fibonacci: TButton
+  object grp_10easy: TGroupBox
     Left = 8
     Top = 8
-    Width = 75
-    Height = 25
-    Caption = 'btn_Fibonacci'
+    Width = 619
+    Height = 283
+    Caption = '10 Easy Pieces'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 0
-    OnClick = btn_FibonacciClick
-  end
-  object btn_palindromic: TButton
-    Left = 96
-    Top = 8
-    Width = 75
-    Height = 25
-    Caption = 'btn_palindromic'
-    TabOrder = 1
-    OnClick = btn_palindromicClick
+    object btn_Fibonacci: TButton
+      Left = 7
+      Top = 24
+      Width = 97
+      Height = 49
+      Caption = 'Fibonacci'
+      Font.Charset = EASTEUROPE_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      OnClick = btn_FibonacciClick
+    end
+    object btn_palindromic: TButton
+      Left = 7
+      Top = 79
+      Width = 97
+      Height = 49
+      Caption = 'Palindromic'
+      Font.Charset = EASTEUROPE_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 1
+      OnClick = btn_palindromicClick
+    end
+    object btn_squares: TButton
+      Left = 7
+      Top = 134
+      Width = 97
+      Height = 49
+      Caption = 'Squares'
+      Font.Charset = EASTEUROPE_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 2
+      OnClick = btn_squaresClick
+    end
   end
 end
