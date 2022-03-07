@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/03/01 09:59:58.000.108,=C:\Users\nfedm\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/07 09:35:49.000.148,=C:\Users\nfedm\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/07 09:36:20.000.439,C:\Users\nfedm\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\GitHub\Unit_principal.dfm</Transaction>
+    <Transaction>2022/03/07 09:36:20.000.439,C:\Users\nfedm\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\GitHub\Unit_principal.pas</Transaction>
+    <Transaction>2022/03/07 09:36:35.000.648,C:\Users\nfedm\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\GitHub\DelphiForFun.dproj</Transaction>
+    <Transaction>2022/03/07 09:37:40.000.911,=C:\GitHub\Unit1.pas</Transaction>
+    <Transaction>2022/03/07 09:38:21.000.253,C:\GitHub\Unit1.pas=C:\GitHub\Unit_10EasyPieces.pas</Transaction>
+    <Transaction>2022/03/07 09:38:21.000.253,C:\GitHub\Unit1.dfm=C:\GitHub\Unit_10EasyPieces.dfm</Transaction>
+    <Transaction>2022/03/07 09:43:41.000.184,=C:\GitHub\Unit1.pas</Transaction>
+    <Transaction>2022/03/07 09:44:39.000.190,C:\GitHub\Unit1.pas=C:\GitHub\Unit_10EasyPieces_Funtions.pas</Transaction>
+    <Transaction>2022/03/07 09:48:37.000.118,=C:\GitHub\Unit1.pas</Transaction>
+    <Transaction>2022/03/07 09:51:51.000.630,C:\GitHub\Unit1.dfm=C:\GitHub\Unit_fibonacci.dfm</Transaction>
+    <Transaction>2022/03/07 09:51:51.000.630,C:\GitHub\Unit1.pas=C:\GitHub\Unit_fibonacci.pas</Transaction>
+    <Transaction>2022/03/07 13:29:47.520,=C:\GitHub\Unit1.pas</Transaction>
+    <Transaction>2022/03/07 13:30:12.993,C:\GitHub\Unit_palindromic.pas=C:\GitHub\Unit1.pas</Transaction>
+    <Transaction>2022/03/07 13:30:12.993,C:\GitHub\Unit_palindromic.dfm=C:\GitHub\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

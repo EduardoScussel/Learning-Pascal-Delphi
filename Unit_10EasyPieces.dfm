@@ -1,0 +1,34 @@
+object Form_10EasyPieces: TForm_10EasyPieces
+  Left = 0
+  Top = 0
+  Caption = 'Form_10EasyPieces'
+  ClientHeight = 299
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btn_Fibonacci: TButton
+    Left = 8
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'btn_Fibonacci'
+    TabOrder = 0
+    OnClick = btn_FibonacciClick
+  end
+  object btn_palindromic: TButton
+    Left = 96
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'btn_palindromic'
+    TabOrder = 1
+    OnClick = btn_palindromicClick
+  end
+end

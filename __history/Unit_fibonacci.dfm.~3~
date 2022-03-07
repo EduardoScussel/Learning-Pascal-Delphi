@@ -1,0 +1,62 @@
+object Form_fibonacci: TForm_fibonacci
+  Left = 0
+  Top = 0
+  Caption = 'Form_fibonacci'
+  ClientHeight = 298
+  ClientWidth = 544
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btn_fibonacciRun: TButton
+    Left = 335
+    Top = 152
+    Width = 75
+    Height = 25
+    Caption = 'btn_fibonacciRun'
+    TabOrder = 0
+  end
+  object mmo_fibonacciResult: TMemo
+    Left = 88
+    Top = 139
+    Width = 202
+    Height = 95
+    Lines.Strings = (
+      'mmo_fibonacciResult')
+    TabOrder = 1
+  end
+  object pnl_head: TPanel
+    Left = 8
+    Top = 8
+    Width = 353
+    Height = 113
+    Caption = 'pnl_head'
+    TabOrder = 2
+    object lbl_initial: TLabel
+      Left = 24
+      Top = 28
+      Width = 55
+      Height = 13
+      Caption = 'Initial Value'
+    end
+    object lbl_fibonacci: TLabel
+      Left = 80
+      Top = 8
+      Width = 58
+      Height = 13
+      Caption = 'lbl_fibonacci'
+    end
+    object edt_initial: TEdit
+      Left = 24
+      Top = 47
+      Width = 41
+      Height = 21
+      TabOrder = 0
+    end
+  end
+end

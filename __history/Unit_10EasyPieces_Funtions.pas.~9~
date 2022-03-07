@@ -1,0 +1,61 @@
+unit Unit_10EasyPieces_Funtions;
+
+interface
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, ComCtrls, Vcl.Graphics, Math,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls, System.StrUtils;
+
+function fibonacci(initial_value, lengh : integer):String;
+function palindromic(digits:integer):string;
+implementation
+
+
+function fibonacci(initial_value, lengh : integer):String;
+var
+ row, sum: Integer;
+ line: string;
+ fib: array [0..100] of Integer;
+
+begin
+row := 2;
+  fib[0] := initial_value;
+  fib[1] := initial_value + 1;
+  line := intToStr(fib[0]) + ', ' + intToStr(fib[1]);
+  while lengh > row do begin
+    line := line + ', ';
+    fib[row] := fib[row - 2] + fib[row - 1];
+    line := line + IntToStr(fib[row]);
+    row := row + 1;
+  end;
+  Result := line;
+
+end;
+
+function palindromic(digits:integer):string;
+var
+  max_value, index1, index2: Integer;
+  array1, array2: array of Integer;
+begin
+  index1 := 0;
+  while digits > 0 do begin
+    max_value := strtoint(IntToStr(max_value) + '9');
+  end;
+  index2 := max_value;
+  SetLength(array1[0],max_value);
+  SetLength(array2[0],max_value);
+  while max_value >= index1 do begin
+    array1[index1] := index1;
+    array2[index2] := index2;
+    index1 := index1 + 1;
+    index2 := index2 - 1;
+    if AnsiCompareStr(IntToStr(array1[index1],  Reversestring(inttostr(array2[index2])))) = 0  then begin
+      Result := IntToStr(array1[index1]) + inttostr(array2[index2]);
+      Exit;
+    end;
+
+
+  end;
+
+
+end;
+end.

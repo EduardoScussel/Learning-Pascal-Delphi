@@ -1,0 +1,27 @@
+unit Unit_fibonacci;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm_fibonacci = class(TForm)
+    edt_initial: TEdit;
+    btn_fibonacciRun: TButton;
+    mmo_fibonacciResult: TMemo;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form_fibonacci: TForm_fibonacci;
+
+implementation
+
+{$R *.dfm}
+
+end.

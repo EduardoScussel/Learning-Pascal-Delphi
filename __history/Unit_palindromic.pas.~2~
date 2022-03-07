@@ -1,0 +1,25 @@
+unit Unit_palindromic;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls;
+
+type
+  TForm_palindromic = class(TForm)
+    pnl_head: TPanel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form_palindromic: TForm_palindromic;
+
+implementation
+
+{$R *.dfm}
+
+end.

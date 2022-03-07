@@ -1,0 +1,129 @@
+object Form_fibonacci: TForm_fibonacci
+  Left = 0
+  Top = 0
+  Caption = 'Form_fibonacci'
+  ClientHeight = 267
+  ClientWidth = 215
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object mmo_fibonacciResult: TMemo
+    Left = 8
+    Top = 115
+    Width = 201
+    Height = 95
+    Lines.Strings = (
+      '')
+    TabOrder = 0
+  end
+  object pnl_head: TPanel
+    Left = 8
+    Top = 8
+    Width = 201
+    Height = 101
+    TabOrder = 1
+    object lbl_initial: TLabel
+      Left = 10
+      Top = 20
+      Width = 66
+      Height = 16
+      Caption = 'Initial Value'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      ParentFont = False
+    end
+    object lbl_fibonacci: TLabel
+      Left = 0
+      Top = 0
+      Width = 178
+      Height = 22
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'Fibonacci Calculator'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Arial'
+      Font.Style = []
+      ParentFont = False
+    end
+    object lbl_lengh: TLabel
+      Left = 112
+      Top = 20
+      Width = 66
+      Height = 16
+      Caption = 'Lengh'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      ParentFont = False
+    end
+    object lbl_separator: TLabel
+      Left = 89
+      Top = 45
+      Width = 17
+      Height = 13
+      Caption = '-'
+    end
+    object edt_initial: TEdit
+      Left = 10
+      Top = 42
+      Width = 66
+      Height = 21
+      TabOrder = 0
+    end
+    object edt_lengh: TEdit
+      Left = 112
+      Top = 42
+      Width = 66
+      Height = 21
+      TabOrder = 1
+    end
+    object btn_fibonacciRun: TButton
+      Left = 54
+      Top = 69
+      Width = 75
+      Height = 25
+      Caption = 'RUN!'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 2
+      OnClick = btn_fibonacciRunClick
+    end
+  end
+  object pnl_nav: TPanel
+    Left = 8
+    Top = 218
+    Width = 201
+    Height = 41
+    TabOrder = 2
+    object btn_back: TSpeedButton
+      Left = 10
+      Top = 3
+      Width = 66
+      Height = 33
+      Caption = 'BACK'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Arial'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+end

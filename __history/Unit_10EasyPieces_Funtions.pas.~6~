@@ -1,0 +1,34 @@
+unit Unit_10EasyPieces_Funtions;
+
+interface
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, ComCtrls, Vcl.Graphics, Math,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls;
+
+function fibonacci(initial_value, lengh : integer):String;
+
+implementation
+
+
+function fibonacci(initial_value, lengh : integer):String;
+var
+ row, sum: Integer;
+ line: string;
+ fib: array [0..100] of Integer;
+
+begin
+row := 2;
+  fib[0] := initial_value;
+  fib[1] := initial_value + 1;
+  line := intToStr(fib[0]) + ', ' + intToStr(fib[1]);
+  while lengh > row do begin
+    line := line + ', ';
+    fib[row] := fib[row - 2] + fib[row - 1];
+    line := line + IntToStr(fib[row]);
+    row := row + 1;
+  end;
+  Result := line;
+
+end;
+
+end.
