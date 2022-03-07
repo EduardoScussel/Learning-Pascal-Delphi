@@ -20,6 +20,7 @@ type
     btn_fibonacciRun: TButton;
     btn_back: TSpeedButton;
     btn_clear: TSpeedButton;
+    mmo_question: TMemo;
     procedure btn_fibonacciRunClick(Sender: TObject);
     procedure btn_clearClick(Sender: TObject);
     procedure btn_backClick(Sender: TObject);

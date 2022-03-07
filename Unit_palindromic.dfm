@@ -3,7 +3,7 @@ object Form_palindromic: TForm_palindromic
   Top = 0
   Caption = 'Form_palindromic'
   ClientHeight = 283
-  ClientWidth = 223
+  ClientWidth = 367
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -112,5 +112,32 @@ object Form_palindromic: TForm_palindromic
       ParentFont = False
       OnClick = btn_clearClick
     end
+  end
+  object mmo_question: TMemo
+    Left = 223
+    Top = 8
+    Width = 138
+    Height = 272
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = []
+    Lines.Strings = (
+      'QUESTION:'
+      ''
+      'A palindromic number '
+      'reads the same both '
+      'ways. The largest '
+      'palindrome made '
+      'from the product of '
+      'two 2-digit numbers '
+      'is 9009 = 91 '#215' 99.  '
+      'Find the largest '
+      'palindrome made '
+      'from the product of '
+      'two 3-digit numbers.')
+    ParentFont = False
+    TabOrder = 3
   end
 end

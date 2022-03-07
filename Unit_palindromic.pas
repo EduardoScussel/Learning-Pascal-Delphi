@@ -17,6 +17,7 @@ type
     pnl_nav: TPanel;
     btn_back: TSpeedButton;
     btn_clear: TSpeedButton;
+    mmo_question: TMemo;
     procedure btn_palindromicRunClick(Sender: TObject);
     procedure btn_backClick(Sender: TObject);
     procedure btn_clearClick(Sender: TObject);
